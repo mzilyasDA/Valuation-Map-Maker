@@ -3,6 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/map', function () {
+Route::get('/', function () {
     return view('map');
 });
